@@ -1,13 +1,16 @@
-<html>
-  <head>
-    <title> Mercury </title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <meta content="">
-    <style></style>
-  </head>
-  <body>
-    <h1> Welcome to Mercury! </h1>  
-    <img src="/img/mercury.jpg" alt="First rock from the sun">
-  </body>
-</html>
-<% include partials/footer %>
+<% include partials/header %>
+                <li class="active"><a href="/mercury">Mercury</a></li>
+                <li><a href="/venus">Venus</a></li>
+                <li><a href="/earth">Earth</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="display-2"> Welcome to Mercury! </h1>  
+    <img class="center" src="/img/mercury.png" alt="First rock from the sun">
+    <br>
+    <p>Mercury is the smallest planet of our solar system. It's mass is roughly 3.3 million trillion
+     kilograms. The surface gravity is about one third of Earth. If you were to stand on the surface
+      (and not melt!), you would weigh about one third of what you weigh on Earth! Here's an interesting
+       fact about Mercury: it's solar day is twice as long as it solar year! In other words, all year 
+       round is your birthday~!</p>
+<% include partials/footer.ejs %>

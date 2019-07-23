@@ -1,0 +1,12 @@
+<% include partials/header %>
+                <li><a href="/mercury">Mercury</a></li>
+                <li><a href="/venus">Venus</a></li>
+                <li class="active"><a href="/earth">Earth</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="display-2"> Welcome to Earth! </h1>  
+    <img class="center" src="/img/earth.jpg" alt="The only rock that matters.">
+  </body>
+</html>
+<% include partials/footer.ejs %>

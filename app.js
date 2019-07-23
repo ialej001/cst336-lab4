@@ -12,15 +12,19 @@ app.get("/mercury", function(req,res) {
 });
 
 app.get("/venus", function(req,res) {
-    res.send("This will be Venus web page!");
+    res.render("venus.html");
+});
+
+app.get("/earth", function(req,res) {
+    res.render("earth.html");
 });
 
 //local server listener
-/*app.listen("8081","127.0.0.1", function() {
+app.listen("8081","127.0.0.1", function() {
     console.log("Express Server is Running...");
-});*/
+});
 
 //heroku server listener
-app.listen(process.env.PORT, process.env.IP, function() {
+/*app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Running Express Server...");
-});
+});*/

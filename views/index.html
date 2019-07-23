@@ -1,21 +1,18 @@
 <% include partials/header.ejs%>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title> The Solar System </title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <meta content="">
-    <style></style>
-  </head>
-  <body>
-    <h1> Welcome to the Solar System Site! </h1>
+                <li><a href="/mercury">Mercury</a></li>
+                <li><a href="/venus">Venus</a></li>
+                <li><a href="/earth">Earth</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="display-2"> Welcome to the Solar System Site! </h1>
     
-    <img src="/img/pic.jpg" alt="The Solar System">
-    <p>Click on a planet to know more about it:</p>
+    <img class="img-responsive img-rounded" src="/img/pic.jpg" alt="The Solar System">
+    <h5 class="text-info">Click on a planet to know more about it:</h5>
     
     <a href="/mercury" > Mercury </a> <br>
     <a href="/venus" > Venus </a> <br>
-    Earth <br>
-  </body>
-</html>
-<% include partials/footer %>
+    <a href="/earth" > Earth </a> <br>
+
+<% include partials/footer.ejs %>
+
