@@ -14,5 +14,5 @@
     <a href="/venus" > Venus </a> <br>
     <a href="/earth" > Earth </a> <br>
 
-<% include partials/footer %>
+<% include partials/footer.ejs %>
 
